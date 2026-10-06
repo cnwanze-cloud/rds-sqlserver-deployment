@@ -1,0 +1,68 @@
+# ===== Secrets and credentials =====
+.env
+.env.*
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+credentials
+credentials.*
+secrets.*
+*.secret
+.aws/
+aws-keys*
+access-keys*
+*accessKeys.csv
+*_accessKeys.csv
+
+# ===== Database backups and data files =====
+*.bak
+*.trn
+*.mdf
+*.ldf
+*.ndf
+*.dacpac
+*.bacpac
+*.sql.gz
+*.dump
+
+# ===== Terraform (if you add it later) =====
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+
+# ===== AWS SAM / CDK / CloudFormation build output =====
+.aws-sam/
+cdk.out/
+packaged-template.yaml
+
+# ===== Logs and temporary files =====
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# ===== Local screenshots not meant for the repo =====
+# Keep your cleaned screenshots in screenshots/ and remove this
+# line only if you want raw captures committed.
+screenshots/raw/
+screenshots/unblurred/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ===== Editors and IDEs =====
+.vscode/
+.idea/
+*.code-workspace
+.ssms/
+*.ssmssln.user
